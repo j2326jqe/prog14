@@ -2,7 +2,7 @@ from torch import nn
 
 import torch
 
-
+#　ここから本番
 class MyModel(nn.Module):
     def __init__(self):
         super().__init__()
@@ -38,4 +38,6 @@ class MyModel(nn.Module):
 
         return accuracy
     
-    print("models.py is loaded")
+print("models.py is loaded")
+
+
